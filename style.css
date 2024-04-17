@@ -200,6 +200,13 @@ p a:hover {
 /* UPI */
 /* Media Queries for Phone View */
 @media screen and (max-width: 600px) {
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+    
     header {
         height: 30px; /* Further reduced height for smaller screens */
     }
