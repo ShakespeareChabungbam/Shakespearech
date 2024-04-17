@@ -198,3 +198,35 @@ p a:hover {
 }
 
 /* UPI */
+/* Media Queries for Phone View */
+@media screen and (max-width: 600px) {
+    header {
+        height: 30px; /* Further reduced height for smaller screens */
+    }
+
+    header h1 {
+        font-size: 15px; /* Further reduced font size for smaller screens */
+    }
+
+    header nav a {
+        font-size: 10px;
+        font-weight: 600;
+        padding: 6px 12px;
+        border-radius: 49px;
+        transition: 0.3s;
+        color: white;
+    }
+
+    .home .title {
+        font-size: 40px; /* Further reduced font size for smaller screens */
+    }
+
+    .about h1 {
+        font-size: 17px; /* Further reduced font size for smaller screens */
+    }
+
+    .whatsapp-btn,
+    .instagram-btn {
+        padding: 6px; /* Reduced padding for smaller screens */
+    }
+}
