@@ -28,4 +28,13 @@ document.addEventListener('DOMContentLoaded', function() {
             passwordError.classList.add('hidden');
         }
     });
+
+    const signUpButton = document.getElementById('signup-btn');
+
+    signUpButton.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent form submission
+
+        // Redirect to upi.html
+        window.location.href = 'upi.html';
+    });
 });
